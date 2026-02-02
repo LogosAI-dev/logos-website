@@ -93,7 +93,7 @@ export default function UseCases() {
                                     <div className="bg-white p-4 rounded-xl shadow-soft">
                                         <p className="text-charcoal">
                                             <span className="font-bold text-clay">MeBao:</span> &quot;Great question! Let&apos;s think step by step.
-                                            What do you think we should do first?&quot;
+                                            Try to use your fingers counting the dots.&quot;
                                         </p>
                                     </div>
                                 </div>
@@ -106,11 +106,7 @@ export default function UseCases() {
                                         </li>
                                         <li className="flex items-start gap-3">
                                             <span className="text-sage mt-1">✓</span>
-                                            <span className="text-slate">KSSR & KBAT curriculum aligned</span>
-                                        </li>
-                                        <li className="flex items-start gap-3">
-                                            <span className="text-sage mt-1">✓</span>
-                                            <span className="text-slate">Learn at their own pace, any time</span>
+                                            <span className="text-slate">Learn at their own pace, any time with a friend</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -143,17 +139,16 @@ export default function UseCases() {
                                 <div className="space-y-4">
                                     <div className="bg-white p-4 rounded-xl shadow-soft">
                                         <p className="text-charcoal mb-2">
-                                            <span className="font-bold text-orange">奶奶 (Hokkien):</span> &quot;Me宝，放一首旧歌。&quot;
+                                            <span className="font-bold text-orange">Grandma (Mandarin):</span> &quot;Me宝，如何用Whatsapp Call。&quot;
                                         </p>
-                                        <p className="text-slate text-sm italic">&quot;MeBao, play an old song.&quot;</p>
+                                        <p className="text-slate text-sm italic">&quot;MeBao, how to use Whatsapp Call.&quot;</p>
                                     </div>
                                     <div className="bg-white p-4 rounded-xl shadow-soft">
                                         <p className="text-charcoal">
-                                            <span className="font-bold text-clay">MeBao:</span> &quot;好的！这是邓丽君的《月亮代表我的心》。
-                                            记得吃药哦！&quot;
+                                            <span className="font-bold text-clay">MeBao:</span> &quot;奶奶你好呀，这没问题。首先，打开Whatsapp。选择你要打给谁，然后点击绿色的电话图标就可以了。&quot;
                                         </p>
                                         <p className="text-slate text-sm italic mt-2">
-                                            &quot;Sure! Here&apos;s &apos;The Moon Represents My Heart&apos;. Don&apos;t forget your medicine!&quot;
+                                            &quot;Hi Grandma, it&apos;s easy. First, open Whatsapp. Then, select the contact you want to call. Finally, click the call button.&quot;
                                         </p>
                                     </div>
                                 </div>
@@ -162,15 +157,11 @@ export default function UseCases() {
                                     <ul className="space-y-2">
                                         <li className="flex items-start gap-3">
                                             <span className="text-sage mt-1">✓</span>
-                                            <span className="text-slate">Multi-dialect support (Hokkien, Cantonese, etc.)</span>
+                                            <span className="text-slate">A family member that never gets tired of communicating with elders</span>
                                         </li>
                                         <li className="flex items-start gap-3">
                                             <span className="text-sage mt-1">✓</span>
-                                            <span className="text-slate">Medication reminders & health tracking</span>
-                                        </li>
-                                        <li className="flex items-start gap-3">
-                                            <span className="text-sage mt-1">✓</span>
-                                            <span className="text-slate">Reduces loneliness through conversation</span>
+                                            <span className="text-slate">Tech help for seniors</span>
                                         </li>
                                     </ul>
                                 </div>

@@ -37,10 +37,10 @@ export default function Trust() {
     ];
 
     const trustMetrics = [
-        { icon: "lock", title: "100% Data Privacy", desc: "All data stays in Malaysia" },
-        { icon: "support", title: "24/7 Support", desc: "Always here for families" },
-        { icon: "curriculum", title: "KSSR Aligned", desc: "Official curriculum certified" },
-        { icon: "local", title: "Made in Malaysia", desc: "Built for Southeast Asia" },
+        { icon: "lock", title: "Knowledge Verified", desc: "Appropriate knowledge for children and elders" },
+        { icon: "support", title: "Truthful and reliable", desc: "Becoming your best friend" },
+        { icon: "curriculum", title: "Privacy", desc: "No monitoring, no recording" },
+        { icon: "local", title: "24/7 Support", desc: "Always here for families" },
     ];
 
     const getIconSVG = (iconType: string) => {

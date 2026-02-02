@@ -31,24 +31,24 @@ export default function Tech() {
     const capabilities = [
         {
             prefix: "[1]",
-            title: "Visual RAG",
-            subtitle: "Retrieval-Augmented Generation with Eyes",
-            description: "MeBao doesn't just 'see' text—it understands diagrams, handwriting, and visual context from textbooks",
-            color: "orange",
-        },
-        {
-            prefix: "[2]",
-            title: "Localized Logic",
-            subtitle: "KSSR & Dialect-Native Datasets",
-            description: "Trained on Malaysian curriculum (KSSR/KBAT) and Southeast Asian dialects (Hokkien, Cantonese, Mandarin)",
+            title: "Verified Knowledge Base",
+            subtitle: "Verified Knowledge Base",
+            description: "Accurate, verified, and up-to-date knowledge base for children and seniors",
             color: "clay",
         },
         {
-            prefix: "[3]",
+            prefix: "[2]",
             title: "Socratic Algorithm",
             subtitle: "Teaching How to Think, Not Just Answers",
             description: "Guides children through problem-solving steps instead of giving direct answers—building critical thinking",
             color: "sage",
+        },
+        {
+            prefix: "[3]",
+            title: "Visual RAG",
+            subtitle: "Retrieval-Augmented Generation with Eyes",
+            description: "MeBao doesn't just 'see' text—it understands diagrams, handwriting, and visual context from textbooks",
+            color: "orange",
         },
     ];
 
@@ -133,15 +133,7 @@ export default function Tech() {
                                 <ul className="space-y-2 text-slate">
                                     <li className="flex items-start gap-2">
                                         <span className="text-orange mt-1">▹</span>
-                                        <span>GPT-4 Vision for multimodal understanding</span>
-                                    </li>
-                                    <li className="flex items-start gap-2">
-                                        <span className="text-orange mt-1">▹</span>
-                                        <span>Custom fine-tuned models for KSSR curriculum</span>
-                                    </li>
-                                    <li className="flex items-start gap-2">
-                                        <span className="text-orange mt-1">▹</span>
-                                        <span>Whisper API for multilingual speech recognition</span>
+                                        <span>Gemini 3 Pro Vision for multimodal understanding</span>
                                     </li>
                                 </ul>
                             </div>

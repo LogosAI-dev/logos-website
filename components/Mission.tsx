@@ -72,12 +72,12 @@ export default function Mission() {
                         <p className="text-xl text-slate leading-relaxed text-center mb-8">
                             We believe technology should adapt to people, not the other way around.
                             From <span className="text-orange font-semibold">3-year-olds</span> learning their ABCs to{" "}
-                            <span className="text-clay font-semibold">90-year-olds</span> hearing their favorite dialect songs,
+                            <span className="text-clay font-semibold">90-year-olds</span> using smartphones,
                             MeBao bridges the gap with warmth and intelligence.
                         </p>
 
                         {/* Core Values */}
-                        <div className="grid md:grid-cols-3 gap-6 mt-12">
+                        <div className="grid md:grid-cols-2 gap-6 mt-12">
                             <motion.div
                                 className="text-center p-6 rounded-2xl bg-beige hover:shadow-soft transition-all duration-300"
                                 initial={{ opacity: 0, y: 20 }}
@@ -107,21 +107,6 @@ export default function Mission() {
                                 <h3 className="text-xl font-bold mb-2 text-clay">Warmth</h3>
                                 <p className="text-slate text-sm">Building emotional connections across generations</p>
                             </motion.div>
-
-                            <motion.div
-                                className="text-center p-6 rounded-2xl bg-beige hover:shadow-soft transition-all duration-300"
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={isVisible ? { opacity: 1, y: 0 } : {}}
-                                transition={{ delay: 0.8, duration: 0.6 }}
-                            >
-                                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-sage/10 flex items-center justify-center">
-                                    <svg className="w-8 h-8 text-sage" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                    </svg>
-                                </div>
-                                <h3 className="text-xl font-bold mb-2 text-sage">Localization</h3>
-                                <p className="text-slate text-sm">Culturally aware, language-native experiences</p>
-                            </motion.div>
                         </div>
                     </motion.div>
 
@@ -133,7 +118,7 @@ export default function Mission() {
                         transition={{ delay: 0.9, duration: 0.8 }}
                     >
                         <p className="text-lg text-slate italic">
-                            "Making advanced AI accessible and meaningful for every family in Southeast Asia"
+                            "Growing with you. Growing old with you"
                         </p>
                     </motion.div>
                 </motion.div>

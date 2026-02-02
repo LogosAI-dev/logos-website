@@ -25,9 +25,9 @@ Hosting: Vercel (你的老本行)
 1. Hero Section (首屏：定调)
 这里要像 OpenAI 或 Apple 的官网，极简、大气。
 
-Headline (大标题): The AI Knowledge Infrastructure for Southeast Asian Families. (东南亚家庭的 AI 知识基础设施)
+Headline (大标题): The Accurate AI Knowledge Infrastructure for the Whole Family. (全家人的精准 AI 知识基础设施)
 
-Sub-headline (副标题): Powered by Logos Engine™. Bridging the gap between raw data and human understanding for the 3-9s and the elderly. (由灵格引擎驱动。消除原始数据与人类理解之间的鸿沟。)
+Sub-headline (副标题): Powered by Logos Engine™. Moving beyond text-books to provide verified, universal knowledge—from logic reasoning for kids to tech-skills for seniors.
 
 Visual (视觉): 右侧放一张 Me宝公仔 的高质量渲染图，背景是一个半透明的、发光的 神经网络图谱 (Knowledge Graph)，连接着“KSSR 数学题”和“方言语音波形”。
 
@@ -38,101 +38,290 @@ CTA Buttons:
 [ Secondary ] Watch the Demo (观看演示)
 
 2. The Problem (痛点：引发共鸣)
-用深色背景，突出问题的严重性。
+用亮色背景 (bg-cream)，突出问题的严重性。
 
-Section Title: The "Sandwich Generation" Crisis
+Section Title: The Era of Misinformation & Complexity
 
-Card 1 (The Young):
+Sub-heading: Families are drowning in noise. Generic AI hallucinates, and search engines are too complex for the young and old.
 
-Icon: 📚 + ❌
+Card 1 (Children - The Logic Gap):
 
-Title: The "Logic Gap"
+Title: "The Logic Gap"
 
-Text: Rote memorization is dead. Parents struggle to teach KSSR & KBAT logic, while generic AI tools hallucinate and confuse children.
+Quote: Children: "I don't understand this math problem..."
 
-Card 2 (The Elderly):
+Pain Points:
+- ChatGPT guesses. Kids need facts. Whether it's logic reasoning or general science, a "probable" answer isn't good enough. Kids need the Truth.
 
-Icon: 👵 + 📱
+Impact: Learning delays, confidence issues, achievement gaps
 
-Title: The "Digital Wall"
+Card 2 (Elderly - The Digital Wall):
 
-Text: Complex screens isolate our seniors. They need companionship, but technology speaks a language they don't understand.
+Title: "The Digital Wall"
+
+Quote: Elderly: "这个东西我不会用..." (I don't know how to use this...)
+
+Pain Points:
+- Elderly people are shut out from the digital world and cannot communicate real-time with their lovely and busy children. Valuable knowledge exists, but it's locked behind complex screens and keyboards, shutting out toddlers and seniors.
+
+Impact: Social isolation, tech information gap
+
+Statistics Bar (4 cards):
+- 2.8M+ Primary Students (Malaysia 2024)
+- 65% Parents Struggle (Teaching at Home)
+- 3.5M+ Seniors 65+ (Malaysia 2024)
+- 45% Feel tech-isolated (Weekly or More)
+
+2.5 Our Mission (使命宣言)
+米色背景 (bg-beige)，展示公司使命和核心价值观。
+
+Section Title: Our Mission
+
+Main Mission Statement:
+"To build AI that feels human."
+
+Sub-statement:
+We believe technology should adapt to people, not the other way around. 
+From 3-year-olds learning their ABCs to 90-year-olds using smartphones, 
+MeBao bridges the gap with warmth and intelligence.
+
+Core Values (3 cards):
+
+Card 1 - Intelligence (Orange):
+- Icon: Lightbulb
+- Title: "Intelligence"
+- Description: Deep tech that understands context and reasoning
+
+Card 2 - Warmth (Clay):
+- Icon: Heart
+- Title: "Warmth"  
+- Description: Building emotional connections across generations
+
+
+Vision Statement (bottom):
+"Growing with you. Growing old with you"
 
 3. The Solution - Hardware (Me宝展示)
-切换回亮色背景，展示产品。
+亮色背景 (bg-cream)，展示产品。
 
 Section Title: Meet MeBao (Me宝). The Ageless Interface.
 
-Feature Grid:
+Feature Grid (3 cards):
 
-Computer Vision: "I see what you see." (配图：Me宝看着课本)
+Card 1 - Computer Vision:
+- Icon: Eye symbol (SVG)
+- Title: "Computer Vision"
+- Quote: "I see what you see."
+- Detail: MeBao uses advanced visual AI to understand textbooks, worksheets, and real-world objects through its camera.
+- Color: Orange
 
-Voice-First: "Speak naturally. No screens required." (配图：声波纹)
+Card 2 - Voice-First:
+- Icon: Microphone symbol (SVG) 
+- Title: "Voice-First"
+- Quote: "Speak naturally. No screens required."
+- Detail: Communicate in Mandarin, Malay, English, or dialects. No typing, no complexity - just conversation.
+- Color: Clay
 
-Digital Kin: "More than a toy. A family member." (配图：孩子抱着的温馨图)
+Card 3 - Digital Kin:
+- Icon: Family/people symbol (SVG)
+- Title: "Digital Kin"
+- Quote: "More than a toy. A family member."
+- Detail: Designed to build emotional bonds, offering companionship that grows with your family.
+- Color: Sage
+
+Product Showcase Section:
+Title: "Warm Technology, Human Connection"
+Description: MeBao isn't just hardware - it's a bridge between generations, combining cutting-edge AI with the warmth of a family companion.
+
+Features:
+- Child-safe design & materials
+- Privacy-first architecture
+- Continuous learning & updates
+
+Visual: MeBao character with floating animation and warm glow effect
 
 4. The Core Tech - Software (灵格引擎：给投资人看)
-这一部分最关键，要用很“硬核”的科技风（黑底蓝光/紫光）。
+米色背景 (bg-beige)，展示硬核科技。
 
 Section Title: Inside the Logos Engine™
 
-Keywords to Highlight:
+Sub-heading: Our proprietary AI infrastructure that powers warm, intelligent conversations across generations
 
-Visual RAG: Retrieval-Augmented Generation with Eyes.
+Architecture Diagram:
+- Visual: tech-architecture.png (动态展示)
+- Shows: Data Input → Logos Engine (Processing) → Output
 
-Localized Logic: Built on Malaysian KSSR & Dialect datasets.
+Core Capabilities (3 cards):
 
-Socratic Algorithm: We teach how to think, not just the answer.
+[1] Verified Knowledge Base:
+- Subtitle: "Verified Knowledge Base"
+- Description: Trained on Malaysian curriculum (KSSR/KBAT) and Southeast Asian dialects (Hokkien, Cantonese, Mandarin)
+- Color: Clay
 
-Visual: 一个动态的架构图：Data Input (PDF/Book) -> Logos Engine (Processing) -> Output (Child-friendly Voice).
+[2] Socratic Algorithm:
+- Subtitle: "Teaching How to Think, Not Just Answers"
+- Description: Guides children through problem-solving steps instead of giving direct answers—building critical thinking
+- Color: Sage
+
+[3] Visual RAG:
+- Subtitle: "Retrieval-Augmented Generation with Eyes"
+- Description: MeBao doesn't just 'see' text—it understands diagrams, handwriting, and visual context from textbooks
+- Color: Orange
+
+Enterprise-Grade Technology Stack:
+
+AI & Machine Learning:
+- Gemini 3 Pro Vision for multimodal understanding
+
+Infrastructure & Data:
+- Pinecone Vector DB for semantic search
+- Edge computing for <100ms latency
+- 99.9% uptime with auto-scaling
 
 5. Use Cases (场景化演示)
-用左右切换的 Slider 或 Tabs。
+米色背景 (bg-beige)，使用 Tab 切换。
+
+Section Title: Real-World Use Cases
+Sub-heading: See MeBao in action across generations
+
+Tab Navigation: 
+- Education (3-9yo) - Orange active state
+- Elderly Care - Orange active state
 
 Tab 1: Education (3-9yo)
+Title: Interactive Learning Companion
 
-Video/GIF: 妈妈在忙，孩子问 Me宝：“这道数学题怎么做？” Me宝一步步引导。
+Dialogue Example:
+- Child: "MeBao, how do I solve this math problem?"
+- (MeBao looks at the textbook...)
+- MeBao: "Great question! Let's think step by step. Try to use your fingers counting the dots."
+
+Key Benefits:
+✓ Socratic method builds critical thinking
+✓ Learn at their own pace, any time with a friend
+
+
+Visual: education-scene.png (hover scale effect)
 
 Tab 2: Elderly Care
+Title: Voice-First Elder Companion
 
-Video/GIF: 奶奶用福建话问：“Me宝，放一首旧歌。” Me宝播放歌曲并提醒吃药。
+Dialogue Example:
+- 奶奶 (Mandarin): "Me宝，如何用Whatsapp Call。" ("MeBao, how to use Whatsapp Call.")
+- MeBao: "奶奶你好呀，这没问题。首先，打开Whatsapp。选择你要打给谁，然后点击绿色的电话图标就可以了。"
+  (Translation: "Hi Grandma, it's easy. First, open Whatsapp. Then, select the contact you want to call. Finally, click the call button.")
+
+Key Benefits:
+✓ A family member that never gets tired of communicating with elders
+✓ Tech help for seniors
+
+Visual: elderly-care-scene.png (hover scale effect)
 
 6. Trust & Partners (信任背书)
-即使现在还没有 Logo，先放 "Pilot Program" 的占位符。
+米色背景 (bg-beige)，展示信任指标和合作伙伴。
 
-Title: Transforming Education & Care with Partners
+Section Title: Building Trust Through Community Impact
 
-Logos: (放几个灰色的 Icon：Kindergartens, Nursing Homes, Tech Partners like Microsoft for Startups/NVIDIA Inception 如果有申请的话)
+Sub-heading: Working with Malaysia's education institutions and community organizations to bring AI to every family
+
+Partnership Categories (2 cards):
+
+Card 1 - Education Partners:
+- Icon: Academic/graduation cap (orange)
+- Count: "Growing Network"
+- Description: Schools & Kindergartens
+
+Card 2 - Community Partners:
+- Icon: People/community (sage)
+- Count: "Active Collaborations"
+- Description: NGOs & Elder Care
+
+Trust Metrics (4 cards):
+- Knowledge Verified: Appropriate knowledge for children and elders
+- Truthful and reliable: Becoming your best friend
+- Privacy: No monitoring, no recording
+- 24/7 Support: Always here for families
+
+Pilot Program Highlight:
+Title: "Currently in Pilot Phase"
+Description: We're working closely with select schools, kindergartens, and elder care facilities to refine MeBao before our official launch.
+
+Features:
+✓ Real-world Testing
+✓ Continuous Improvement
+✓ Community Feedback
+
+CTA Buttons:
+- Join Our Pilot Program (Orange button)
+- Schedule a Demo (White button with border)
 
 7. Team (创始人)
-展示你们的技术背景。
+亮色背景 (bg-cream)，展示技术团队。
 
-Lim Gin Young (CEO): AI Architect & Full Stack Dev.
+Section Title: Meet the Builders
 
-Low Chin Hsien (CTO): AI System & Backend Specialist.
+Sub-heading: Engineers and visionaries building the future of AI-powered education
 
-Tagline: "Builders turning complex AI into warm products."
+Team Members (2 cards):
+
+Card 1 - Lim Gin Young:
+- Role: CEO 
+- Badge: Orange rounded badge
+- Title: Sales & Marketing
+- Description: Leading company to achieve its goals. Expertise in sales and marketing.
+- Image: ceo-portrait.png
+- Social: LinkedIn, GitHub
+
+Card 2 - Low Chin Hsien:
+- Role: CTO 
+- Badge: Orange rounded badge
+- Title: AI System & Backend Specialist
+- Description: Architecting the Logos Engine™ and infrastructure. Deep expertise in machine learning and distributed systems.
+- Image: cto-portrait.png
+- Social: LinkedIn, GitHub
 
 8. Footer (页脚)
-Logos Technology Sdn. Bhd.
+深色背景 (bg-charcoal)，完整的网站信息。
 
-Address / Contact
+Top Section:
+- Brand: Logos Technology
+- Tagline: "Building AI that feels human. From classrooms to living rooms, bridging generations with warmth and intelligence."
+- Status: "● Pilot Running" (sage dot)
+- Location: Kuala Lumpur, Malaysia
 
-Links: Investor Relations | Become a Partner
+Newsletter Signup:
+- Title: "Stay Updated"
+- Description: Get the latest news on MeBao product launches and partnerships
+- Form: Email input + Subscribe button (orange)
 
-💻 代码实现的“野路子”建议 (Developer Tips)
-作为全栈开发者，你可以用以下组件库快速拼装这个网站，只需 1 天：
+Links Section (4 columns):
 
-UI 组件库： 使用 Magic UI (magicui.design) 或 Aceternity UI (ui.aceternity.com)。
+Company (Orange):
+- About Us
+- Careers
+- Press Kit
+- Blog
 
-为什么？ 它们有很多现成的“炫酷科技感”组件，比如 "Bento Grid" (用来排版 Feature)、"Hero Parallax" (用来做首屏)、"Globe" (用来展示数据连接)。
+Product (Clay):
+- MeBao Device
+- Pricing
+- Features
+- FAQs
 
-这些组件非常适合 AI 基础设施公司。
+Partners (Sage):
+- Become a Partner (opens Contact Modal)
+- Schools & Kindergartens
+- Nursing Homes
+- Investor Relations
 
-动态效果：
+Legal (Gray):
+- Privacy Policy
+- Terms of Service
+- Data Protection
+- Cookie Policy
 
-在 "Logos Engine" 部分，使用 Particles 粒子效果作为背景，营造“数据流”的感觉。
+Bottom Section:
+- Social Links: LinkedIn, Twitter (𝕏), Facebook, Instagram, YouTube (circular buttons with hover effects)
+- Copyright: © 2026 Logos Technology Sdn. Bhd. All rights reserved.
+- Tagline: Made in Malaysia • Powered by Logos Engine™
 
-SEO 埋词：
-
-在 <head> 里埋入关键词：AI Education Malaysia, KSSR AI Tutor, Elderly Companion Robot, Visual RAG Infrastructure.

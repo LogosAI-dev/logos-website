@@ -34,7 +34,7 @@ export default function Hero() {
                                 transition={{ delay: 0.2, duration: 0.8 }}
                             >
                                 The AI Knowledge Infrastructure for{" "}
-                                <span className="gradient-text">Southeast Asian Families</span>
+                                <span className="gradient-text">the Whole Family</span>
                             </motion.h1>
 
                             <motion.p
@@ -44,7 +44,7 @@ export default function Hero() {
                                 transition={{ delay: 0.4, duration: 0.8 }}
                             >
                                 Powered by <span className="text-orange font-semibold">Logos Engine™</span>.
-                                Bridging the gap between raw data and human understanding for the 3-9s and the elderly.
+                                Moving beyond text-books to provide verified, universal knowledge—from logic reasoning for kids to tech-skills for seniors.
                             </motion.p>
 
                             <motion.div

@@ -31,15 +31,15 @@ export default function Team() {
     const team = [
         {
             name: "Lim Gin Young",
-            role: "CEO & Founder",
-            title: "AI Architect & Full Stack Developer",
-            description: "Leading product vision and technical architecture. Expertise in AI systems and scalable web applications.",
+            role: "CEO",
+            title: "Sales & Marketing",
+            description: "Leading company to achieve its goals. Expertise in sales and marketing.",
             linkedin: "#",
             github: "#",
         },
         {
             name: "Low Chin Hsien",
-            role: "CTO & Co-Founder",
+            role: "CTO",
             title: "AI System & Backend Specialist",
             description: "Architecting the Logos Engine™ and infrastructure. Deep expertise in machine learning and distributed systems.",
             linkedin: "#",

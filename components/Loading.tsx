@@ -30,6 +30,30 @@ export default function Loading() {
         };
     }, []);
 
+    // Fixed particle positions to avoid hydration mismatch
+    const particles = [
+        { left: 15, top: 20, duration: 2.5, delay: 0.3 },
+        { left: 85, top: 15, duration: 3.2, delay: 0.8 },
+        { left: 25, top: 75, duration: 2.8, delay: 1.2 },
+        { left: 70, top: 80, duration: 3.5, delay: 0.5 },
+        { left: 45, top: 10, duration: 2.2, delay: 1.5 },
+        { left: 60, top: 65, duration: 3.8, delay: 0.9 },
+        { left: 10, top: 50, duration: 2.6, delay: 1.8 },
+        { left: 90, top: 45, duration: 3.1, delay: 0.2 },
+        { left: 35, top: 30, duration: 2.9, delay: 1.1 },
+        { left: 75, top: 25, duration: 3.4, delay: 0.6 },
+        { left: 20, top: 85, duration: 2.4, delay: 1.6 },
+        { left: 80, top: 70, duration: 3.6, delay: 0.4 },
+        { left: 50, top: 55, duration: 2.7, delay: 1.4 },
+        { left: 65, top: 35, duration: 3.3, delay: 0.7 },
+        { left: 30, top: 60, duration: 2.3, delay: 1.9 },
+        { left: 55, top: 90, duration: 3.7, delay: 0.1 },
+        { left: 40, top: 40, duration: 2.1, delay: 1.3 },
+        { left: 95, top: 55, duration: 3.9, delay: 1.0 },
+        { left: 5, top: 65, duration: 2.0, delay: 1.7 },
+        { left: 72, top: 12, duration: 3.0, delay: 0.0 },
+    ];
+
     return (
         <AnimatePresence>
             {isLoading && (
@@ -100,7 +124,7 @@ export default function Loading() {
 
                     {/* Embracing arms effect - curved lines */}
                     <svg
-                        className="absolute w-full h-full"
+                        className="absolute w-full h-full -z-10 top-1/3"
                         viewBox="0 0 100 100"
                         preserveAspectRatio="none"
                     >
@@ -137,13 +161,13 @@ export default function Loading() {
                     </svg>
 
                     {/* Floating particles */}
-                    {[...Array(20)].map((_, i) => (
+                    {particles.map((particle, i) => (
                         <motion.div
                             key={i}
                             className="absolute w-1 h-1 rounded-full bg-orange/30"
                             style={{
-                                left: `${Math.random() * 100}%`,
-                                top: `${Math.random() * 100}%`,
+                                left: `${particle.left}%`,
+                                top: `${particle.top}%`,
                             }}
                             initial={{ opacity: 0, scale: 0 }}
                             animate={{
@@ -152,16 +176,16 @@ export default function Loading() {
                                 y: [0, -100],
                             }}
                             transition={{
-                                duration: 2 + Math.random() * 2,
+                                duration: particle.duration,
                                 repeat: Infinity,
-                                delay: Math.random() * 2,
+                                delay: particle.delay,
                                 ease: "easeOut",
                             }}
                         />
                     ))}
 
                     {/* Central content */}
-                    <div className="relative z-10 flex flex-col items-center">
+                    <div className="relative z-50 flex flex-col items-center">
                         {/* Logo mark with pulse */}
                         <motion.div
                             className="relative mb-8"

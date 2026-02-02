@@ -42,11 +42,10 @@ export default function Problem() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl lg:text-6xl font-bold mb-4 text-charcoal">
-                        The <span className="gradient-text">Sandwich Generation</span> Crisis
+                        The <span className="gradient-text">Era of Misinformation & Complexity</span>
                     </h2>
                     <p className="text-xl text-slate max-w-3xl mx-auto">
-                        Southeast Asian families are caught between two worlds: caring for children's education
-                        while supporting aging parents—both struggling with digital literacy gaps.
+                        Families are drowning in noise. Generic AI hallucinates, and search engines are too complex for the young and old.
                     </p>
                 </motion.div>
 
@@ -78,15 +77,7 @@ export default function Problem() {
                         <div className="space-y-3 mb-6">
                             <div className="flex items-start gap-3">
                                 <div className="w-2 h-2 bg-clay rounded-full mt-2"></div>
-                                <p className="text-slate">Parents lack time & pedagogical skills to teach KSSR/KBAT concepts</p>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-clay rounded-full mt-2"></div>
-                                <p className="text-slate">Tutors are expensive (RM50-150/hour) and inconsistent</p>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-clay rounded-full mt-2"></div>
-                                <p className="text-slate">YouTube/Google overwhelm with information, no personalization</p>
+                                <p className="text-slate">ChatGPT guesses. Kids need facts. Whether it's logic reasoning or general science, a "probable" answer isn't good enough. Kids need the Truth.</p>
                             </div>
                         </div>
                         <div className="pt-4 border-t border-beige">
@@ -121,19 +112,11 @@ export default function Problem() {
                         <div className="space-y-3 mb-6">
                             <div className="flex items-start gap-3">
                                 <div className="w-2 h-2 bg-orange rounded-full mt-2"></div>
-                                <p className="text-slate">Can't navigate smartphones/apps (language, UX complexity)</p>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-orange rounded-full mt-2"></div>
-                                <p className="text-slate">Speak dialects (Hokkien, Cantonese) unsupported by tech</p>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-orange rounded-full mt-2"></div>
-                                <p className="text-slate">Loneliness epidemic: 45% feel isolated weekly</p>
+                                <p className="text-slate">Elderly people are shut out from the digital world and cannot communicate real-time with their lovely and busy children. Valuable knowledge exists, but it's locked behind complex screens and keyboards, shutting out toddlers and seniors.</p>
                             </div>
                         </div>
                         <div className="pt-4 border-t border-beige">
-                            <p className="text-sm text-silver">Impact: Social isolation, missed medication, mental health decline</p>
+                            <p className="text-sm text-silver">Impact: Social isolation, tech information gap</p>
                         </div>
                     </motion.div>
                 </div>
@@ -147,7 +130,7 @@ export default function Problem() {
                 >
                     <div className="text-center bg-white p-6 rounded-2xl shadow-soft">
                         <div className="text-4xl font-bold text-orange mb-2">2.8M+</div>
-                        <div className="text-sm text-slate">KSSR Students</div>
+                        <div className="text-sm text-slate">Primary Students</div>
                         <div className="text-xs text-silver mt-1">Malaysia 2024</div>
                     </div>
                     <div className="text-center bg-white p-6 rounded-2xl shadow-soft">
@@ -162,7 +145,7 @@ export default function Problem() {
                     </div>
                     <div className="text-center bg-white p-6 rounded-2xl shadow-soft">
                         <div className="text-4xl font-bold text-clay mb-2">45%</div>
-                        <div className="text-sm text-slate">Feel Isolated</div>
+                        <div className="text-sm text-slate">Feel tech-isolated</div>
                         <div className="text-xs text-silver mt-1">Weekly or More</div>
                     </div>
                 </motion.div>
